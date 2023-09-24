@@ -69,13 +69,13 @@ where `lambda > 0` is the mean parameter.
 ## Usage
 
 ```javascript
-import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-mgf@deno/mod.js';
+import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-mgf@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-mgf@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-mgf@v0.1.0-deno/mod.js';
 ```
 
 #### mgf( t, lambda )
@@ -142,7 +142,7 @@ var y = mymgf( 0.1 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-mgf@deno/mod.js';
+import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-mgf@v0.1.0-deno/mod.js';
 
 var lambda;
 var t;
