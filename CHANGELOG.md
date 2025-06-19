@@ -4,15 +4,25 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-06-19)
+
+<section class="features">
+
+### Features
+
+-   [`2f3cca7`](https://github.com/stdlib-js/stdlib/commit/2f3cca7d06afd7bf32b641d9620886625ae97d53) - add C implementation for `stats/base/dists/poisson/mgf` [(#4626)](https://github.com/stdlib-js/stdlib/pull/4626)
+
+</section>
+
+<!-- /.features -->
 
 <section class="issues">
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#4984](https://github.com/stdlib-js/stdlib/issues/4984)
+[#3791](https://github.com/stdlib-js/stdlib/issues/3791), [#4984](https://github.com/stdlib-js/stdlib/issues/4984)
 
 </section>
 
@@ -24,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`2f3cca7`](https://github.com/stdlib-js/stdlib/commit/2f3cca7d06afd7bf32b641d9620886625ae97d53) - **feat:** add C implementation for `stats/base/dists/poisson/mgf` [(#4626)](https://github.com/stdlib-js/stdlib/pull/4626) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
 -   [`28b78a0`](https://github.com/stdlib-js/stdlib/commit/28b78a0590907a6757bc6fd4c9e88d9109280950) - **bench:** refactor random number generation in `stats/base/dists/poisson` [(#5106)](https://github.com/stdlib-js/stdlib/pull/5106) _(by pranav-1720)_
 
 </details>
@@ -36,8 +47,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Aadish Jain
+-   Philipp Burckhardt
 -   pranav-1720
 
 </section>
