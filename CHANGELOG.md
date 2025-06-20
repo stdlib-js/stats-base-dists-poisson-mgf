@@ -16,6 +16,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`be4189e`](https://github.com/stdlib-js/stdlib/commit/be4189e889c15276e3cba0f176bd0597fbdc299b) - remove unused includes
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="issues">
 
 ### Closed Issues
@@ -34,6 +44,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`be4189e`](https://github.com/stdlib-js/stdlib/commit/be4189e889c15276e3cba0f176bd0597fbdc299b) - **fix:** remove unused includes _(by Philipp Burckhardt)_
 -   [`c499a2b`](https://github.com/stdlib-js/stdlib/commit/c499a2b50d272eb567a8b670d5a0558e163f83a1) - **test:** update variables and remove references to range _(by Philipp Burckhardt)_
 -   [`4b136ff`](https://github.com/stdlib-js/stdlib/commit/4b136ff38994cd60151a6271312222c699e0d2f0) - **test:** update main MGF tests to match native ones and align tolerances _(by Philipp Burckhardt)_
 -   [`2f3cca7`](https://github.com/stdlib-js/stdlib/commit/2f3cca7d06afd7bf32b641d9620886625ae97d53) - **feat:** add C implementation for `stats/base/dists/poisson/mgf` [(#4626)](https://github.com/stdlib-js/stdlib/pull/4626) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
