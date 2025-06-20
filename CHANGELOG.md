@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-19)
+## Unreleased (2025-06-20)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`4b136ff`](https://github.com/stdlib-js/stdlib/commit/4b136ff38994cd60151a6271312222c699e0d2f0) - **test:** update main MGF tests to match native ones and align tolerances _(by Philipp Burckhardt)_
 -   [`2f3cca7`](https://github.com/stdlib-js/stdlib/commit/2f3cca7d06afd7bf32b641d9620886625ae97d53) - **feat:** add C implementation for `stats/base/dists/poisson/mgf` [(#4626)](https://github.com/stdlib-js/stdlib/pull/4626) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
 -   [`28b78a0`](https://github.com/stdlib-js/stdlib/commit/28b78a0590907a6757bc6fd4c9e88d9109280950) - **bench:** refactor random number generation in `stats/base/dists/poisson` [(#5106)](https://github.com/stdlib-js/stdlib/pull/5106) _(by pranav-1720)_
 
