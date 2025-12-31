@@ -153,20 +153,17 @@ var y = mymgf( 0.1 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var randu = require( '@stdlib/random-base-randu' );
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
 var mgf = require( '@stdlib/stats-base-dists-poisson-mgf' );
 
-var lambda;
-var t;
-var y;
-var i;
+var opts = {
+    'dtype': 'float64'
+};
+var t = uniform( 10, 0.0, 5.0, opts );
+var lambda = uniform( 10, 0.0, 5.0, opts );
 
-for ( i = 0; i < 10; i++ ) {
-    t = randu() * 5.0;
-    lambda = randu() * 5.0;
-    y = mgf( t, lambda );
-    console.log( 'x: %d, λ: %d, M_X(t;λ): %d', t.toFixed( 4 ), lambda.toFixed( 4 ), y.toFixed( 4 ) );
-}
+logEachMap( 't: %0.4f, λ: %0.4f, M_X(t;λ): %0.4f', t, lambda, mgf );
 ```
 
 </section>
@@ -336,8 +333,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
