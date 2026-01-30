@@ -71,7 +71,7 @@ where `lambda > 0` is the mean parameter.
 To use in Observable,
 
 ```javascript
-mgf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-mgf@umd/browser.js' )
+mgf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-mgf@v0.3.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -83,7 +83,7 @@ var mgf = require( 'path/to/vendor/umd/stats-base-dists-poisson-mgf/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-mgf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-mgf@v0.3.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -164,7 +164,7 @@ var y = mymgf( 0.1 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-mgf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-mgf@v0.3.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
