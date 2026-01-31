@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-01-31)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`d995add`](https://github.com/stdlib-js/stdlib/commit/d995add873841c6b6dc99502d72cde529caa7bf9) - **bench:** update random value generation for `stats/base/dists/poisson` [(#9998)](https://github.com/stdlib-js/stdlib/pull/9998) _(by Lokesh Ranjan)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Lokesh Ranjan
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2026-01-30)
